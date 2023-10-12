@@ -1,8 +1,8 @@
 <template>
     <div>
-     
       <header>
         <slot name="header"></slot>
+        
       </header>
   
       <main>

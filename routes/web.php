@@ -18,6 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/',[UserController::class,'show']);
-
-
 Route::get('/welcome', [WelcomeController::class, 'index']);

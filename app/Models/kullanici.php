@@ -9,5 +9,5 @@ class kullanici extends Model
     use HasFactory;
     
        protected $table = 'kullanici';
-       protected $fillable = ['id', 'name','timestamps'];
+       protected $fillable = ['id', 'name','email','timestamps'];
 }

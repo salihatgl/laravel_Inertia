@@ -10,9 +10,15 @@ class UserController extends Controller
 {
     public function show(kullanici $user)
     {
-        return Inertia::render('User/Show', [
-          'user' => $user::all('name')
-        ]);
-    }
+      return Inertia::render('User/Show', [
+        'user' => $user->only(
+          'name',
+        ),
+    ]);
     
+  //   return Inertia::render('User/Show', [
+  //  'user' => $user::all()
+  // ]);
+
+    }
 }
