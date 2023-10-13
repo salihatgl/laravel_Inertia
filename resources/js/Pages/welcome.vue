@@ -22,7 +22,6 @@
     </template>
   </Layout>
 </template>
-
 <script >
 import Layout from './User/Layout.vue'
 
