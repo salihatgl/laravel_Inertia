@@ -1,7 +1,7 @@
 <script setup>
 
 import { Head } from '@inertiajs/vue3'
-import { Link } from '@inertiajs/vue3'
+//import { Link } from '@inertiajs/vue3'
 defineProps({ user: Object })
 </script>
 
@@ -9,7 +9,7 @@ defineProps({ user: Object })
 <template>
   <Layout>
     <Head>
-  <title>Welcome</title>
+  <title>Show</title>
   <meta head-key="description" name="description" content="This is a page specific description" />
 </Head>
     <h1>Welcome</h1>
